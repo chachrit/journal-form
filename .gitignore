@@ -1,0 +1,13 @@
+/.env
+/_old/
+/vendor/
+/storage/uploads/*
+/storage/signatures/*
+/storage/cache/*
+/storage/logs/*
+!/storage/**/.gitkeep
+/.phpunit.cache/
+
+# เอกสารภายในองค์กร (ห้ามขึ้น repo สาธารณะ)
+/EMPLOYEE-API-GUIDE.md
+/docs/private/

@@ -1,0 +1,26 @@
+{
+    "name": "journal/journal-form",
+    "description": "Internal form system (JSON-schema driven forms)",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "ext-pdo_sqlsrv": "*",
+        "ext-curl": "*",
+        "ext-fileinfo": "*",
+        "ext-mbstring": "*",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "classmap": ["lib/"],
+        "files": ["lib/helpers.php", "lib/env.php"]
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
